@@ -1,9 +1,10 @@
 import React from 'react'
-import Portfolio from '../assets/Portfolio.png'
+
 import SpicyBites from '../assets/SpicyBites.png'
 import Youtube from '../assets/Youtube.png'
 import Webelite from '../assets/Webelite.png'
 import Supercar from '../assets/Supercar.png'
+import todolist from '../assets/todolist.png'
 import Cards from './Cards'
 
 
@@ -11,11 +12,11 @@ const Projects = () => {
 
     const projectJson = [
         {
-          title: 'Portfolio',
-          desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
-          image: Portfolio,
-          live: "https://rohitsingh93300-portfolio.vercel.app/",
-          github: "https://github.com/rohitsingh93300/portfolio"
+          title: 'TO Do List',
+          desc: 'This is a simple Todo List to manage your tasks efficiently.',
+          image:todolist ,
+          live: "https://delightful-pika-bc07a2.netlify.app/",
+          github: "https://github.com/hemantpatel2001/CODTECH-Task1"
         },
         {
           title: 'Spicy Bites',
