@@ -4,7 +4,7 @@ import linkedin from "../assets/linkedin.png";
 import reactLogo from "../assets/React.png";
 import reduxLogo from "../assets/Redux.png";
 import tailwind from "../assets/Tailwind Css.png";
-import hemant from "../assets/hemant.png";
+import hemant from "../assets/Hemant.png";
 
 const Hero = () => {
   return (
