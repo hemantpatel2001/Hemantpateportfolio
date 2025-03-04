@@ -1,12 +1,8 @@
 import React from 'react'
-
-import SpicyBites from '../assets/SpicyBites.png'
-import Youtube from '../assets/Youtube.png'
-import Webelite from '../assets/Webelite.png'
-import Supercar from '../assets/Supercar.png'
 import todolist from '../assets/todolist.png'
 import Cards from './Cards'
-
+import Spadurban from "../assets/Spadurban.png"
+import CityBazar from "../assets/Citybazar.png"
 
 const Projects = () => {
 
@@ -17,6 +13,20 @@ const Projects = () => {
           image:todolist ,
           live: "https://delightful-pika-bc07a2.netlify.app/",
           github: "https://github.com/hemantpatel2001/CODTECH-Task1"
+        },
+        {
+          title: 'Spa durbun',
+          desc: 'The platform offers features such as Booking massages, purchasing, and availing other spa services',
+          image: Spadurban,
+          live: "https://spadurban.co.za/",
+          github: ""
+        },
+        {
+          title: 'City Bazar online',
+          desc: 'Discover the convenience of shopping locally with City Bazar Online, where you can find the best deals around.git',
+          image:CityBazar,
+          live: "https://citybazaronline.com/",
+      
         },
         
       ];

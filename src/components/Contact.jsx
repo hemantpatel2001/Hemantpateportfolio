@@ -1,10 +1,7 @@
 import React from "react";
-import facebook from "../assets/facebook.png";
-import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
-import Lottie from "lottie-react";
-import contact from "../assets/Contact.json";
-
+import email from "../assets/email.png";
+import github from "../assets/github.png"
 const Contact = () => {
   return (
     <section
@@ -21,24 +18,41 @@ const Contact = () => {
               I'm always open to new opportunities and collaboration. Feel free
               to reach out!
             </p>
-            <div className="flex space-x-4">
-              <a
-                href="https://www.linkedin.com/in/hemant-patel2001/"
-                className="text-foreground/60 hover:text-foreground/80"
-              >
-                <img src={linkedin} alt="" className="h-6 w-6" />
-              </a>
+
+            <h1 className="text-red-500 text-4xl font-bold">Contact Me</h1>
+            <br />
+            <div className="flex items-center space-x-4">
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/hemant-patel2001/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={linkedin} className="h-16" alt="LinkedIn" />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/hemant-patel2001/"
+                  target="_blank"
+                  className="text-white font-medium"
+                >
+                  https://www.linkedin.com/in/hemant-patel2001/
+                </a>
+              </span>
             </div>
-            <Lottie
-              animationData={contact}
-              className="w-[350px] mx-auto lg:w-[500px]"
-            />
+            <br />
+            <div className="flex items-center gap-4 ml-3 ">
+              <img src={email} className="h-8 " />  
+              <span className="text-white font-medium"> hemantpatel4326@gmail.com</span>
+            </div> 
+            <br />
+            <div className="flex gap-2 items-center  ">
+               
+              <img src={github} className="h-14 ml-1"/>
+              <a href="https://github.com/hemantpatel2001" className="text-white font-medium"> https://github.com/hemantpatel2001</a>
+            </div>
           </div>
-       
-            <h1 className="text-gray-900 text-4xl font-bold mb-7">
-              Contact Me
-            </h1>
-          
         </div>
       </div>
     </section>
