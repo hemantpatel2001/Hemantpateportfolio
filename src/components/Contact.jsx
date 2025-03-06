@@ -1,7 +1,7 @@
 import React from "react";
 import linkedin from "../assets/linkedin.png";
 import email from "../assets/email.png";
-import Github from "../assets/Github.png"
+import Github from"../assets/Github.png"
 const Contact = () => {
   return (
     <section
