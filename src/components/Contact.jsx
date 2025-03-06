@@ -1,7 +1,7 @@
 import React from "react";
 import linkedin from "../assets/linkedin.png";
 import email from "../assets/email.png";
-import github from "../assets/github.png"
+import Github from "../assets/Github.png"
 const Contact = () => {
   return (
     <section
@@ -49,7 +49,7 @@ const Contact = () => {
             <br />
             <div className="flex gap-2 items-center  ">
                
-              <img src={github} className="h-14 ml-1"/>
+              <img src={Github} className="h-14 ml-1"/>
               <a href="https://github.com/hemantpatel2001" className="text-white font-medium"> https://github.com/hemantpatel2001</a>
             </div>
           </div>
