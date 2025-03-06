@@ -1,5 +1,4 @@
 import React from "react";
-import MernStack from "../assets/mernstack.png";
 import Html from "../assets/Html.png";
 import Css from "../assets/CSS.png";
 import Javascript from "../assets/JS.png";
