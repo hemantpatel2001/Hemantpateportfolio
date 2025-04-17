@@ -3,7 +3,7 @@ import todolist from '../assets/todolist.png'
 import Cards from './Cards'
 import Spadurban from "../assets/Spadurban.png"
 import CityBazar from "../assets/Citybazar.png"
-
+import VipraJyoti from "../assets/viprajyoti.png"
 const Projects = () => {
 
     const projectJson = [
@@ -14,6 +14,14 @@ const Projects = () => {
           live: "https://delightful-pika-bc07a2.netlify.app/",
           github: "https://github.com/hemantpatel2001/CODTECH-Task1"
         },
+        {
+          title: 'Vipra Jyoti',
+          desc: 'This is a simple Pujan booking website',
+          image:VipraJyoti ,
+          live: "https://viprajyoti.vercel.app/",
+          github: ""
+        },
+     
         {
           title: 'Spa durbun',
           desc: 'The platform offers features such as Booking massages, purchasing, and availing other spa services',

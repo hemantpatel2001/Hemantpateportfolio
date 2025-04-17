@@ -5,6 +5,7 @@ import reactLogo from "../assets/React.png";
 import reduxLogo from "../assets/Redux.png";
 import tailwind from "../assets/Tailwind Css.png";
 import hemant from "../assets/Hemant.png";
+import hemantimg from "../assets/HemantPatel.jpg"
 
 const Hero = () => {
   return (
@@ -34,7 +35,7 @@ const Hero = () => {
           </div>
           <div className="md:w-1/2 relative flex justify-center items-end">
             <div className="w-[200px] h-[200px] overflow-hidden rounded-full">
-              <img src={hemant} alt="" className="w-full h-full object-cover" />
+              <img src={hemantimg} alt="" className="w-full h-full object-cover" />
             </div>
             <img
               src={reactLogo}
