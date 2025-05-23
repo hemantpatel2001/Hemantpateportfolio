@@ -18,7 +18,7 @@ const Projects = () => {
           title: 'Vipra Jyoti',
           desc: 'This is a simple Pujan booking website',
           image:VipraJyoti ,
-          live: "https://viprajyoti.vercel.app/",
+          live: "https://viprajyotipuja.com/",
           github: ""
         },
      
